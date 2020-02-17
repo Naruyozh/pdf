@@ -30,7 +30,7 @@
             }
             h2{
                 text-align: center;
-                font-size: 16px;
+                font-size: 14px;
                 margin-bottom: 0;
                 font-weigh: bolder;
             }
@@ -39,35 +39,43 @@
                 padding: 2px 0;
             }
             .blue-text {
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: bolder;
             }
             .cyan-text {
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: bolder;
                 color: #4EBCC2;
             }
             .purple-text {
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: bolder;
                 color: #754595;
             }
             .magenta-text {
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: bolder;
                 color: #CA255C;
             }
             .orange-text {
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: bolder;
                 color: #F38F1B;
+            }
+            .blue2-text {
+                font-size: 14px;
+                font-weight: bolder;
+                color: #3B8CCB;
             }
             .header-table {
                 width: 100%;
                 margin: 0;
                 padding: 0;
             }
-
+            .label-text-input {
+                font-size: 14px;
+                font-weight: bolder;
+            }
             .left {
                 text-align: left;
             }
@@ -91,6 +99,7 @@
             }
             .border-b {
                 border-bottom: 1px solid gray;
+                height: 12px;
             }
 
             .pt-1 {
@@ -125,10 +134,10 @@
 
             .gray-table {
                 background-color: #CDCCCC;
-                padding: 6px 30px;
+                padding: 4px 30px;
             }
             .padding {
-                padding: 14px 30px 20px 30px;
+                padding: 12px 30px 18px 30px;
             }
 
             .text-white {
@@ -158,7 +167,7 @@
             }
 
             .content {
-                margin-top: 170px;
+                margin-top: 160px;
             }
             /**
                 footer
@@ -292,7 +301,7 @@
                             <tr>
                                 <td width="25%" class="pt-1 border-b">Kardex</td>
                                 <td width="5%"></td>
-                                <td width="20%" class="pt-1">RFC</td>
+                                <td width="20%" class="pt-1 border-b">Femenino</td>
                                 <td width="5%"></td>
                                 <td width="45%" class="pt-1 border-b">Lugar de NacimIento</td>                            
                             </tr>
@@ -311,7 +320,7 @@
                                 <td width="100%">Domicilio</td>
                             </tr>
                             <tr>
-                                <td width="100%" class="pt-1 border-b">CURP</td>
+                                <td width="100%" class="pt-1 border-b">Domicilio</td>
                             </tr>
                         </table>
                     </td>
@@ -388,7 +397,7 @@
                     </td>
                 </tr>
             </table>
-            <table class="header-table pt-3" style="margin-bottom: 30px;">
+            <table class="header-table pt-3" style="margin-bottom: 25px;">
                 <tr class="input-text">
                     <td class="labels">Escolaridad concluida</td>
                     <td width="84%" class="border-b">
@@ -519,7 +528,7 @@
                 </tr>
             </table>
             <!--  -->
-            <div class="border" style="margin-bottom:30px;">
+            <div class="border" style="margin-bottom: 25px;">
                 <table style="width:100%;" class="padding">
                     <tr class="input-text">
                         <td width="3%" class="labels">1.</td>
@@ -592,7 +601,7 @@
                         <td width="18%" class="border-b">   Texto</td>
                     </tr>
                     <tr class="input-text">
-                        <td width="3%" class="pt-2 labels">      1.</td>
+                        <td width="3%" class="pt-2 labels">      2.</td>
                         <td width="41%" class="pt-2 border-b">   Texto</td>
                         <td width="5%" class="pt-2"></td>
                         <td width="5%" class="pt-2 labels"       >Año</td>
@@ -618,7 +627,7 @@
              <table style="width:100%;" class="pt-3">
                 <tr class="input-text">
                     <td class="gray-table">
-                        <span style="font-weight:bolder;">MOTIVO</span> (Se muestran únicamente los dos más recientes)
+                        <span style="font-weight:bolder;">MOTIVO</span> (Se muestran únicamente los tres más recientes)
                     </td>
                 </tr>
             </table>
@@ -636,7 +645,7 @@
                         <td width="18%" class="border-b">   Texto</td>
                     </tr>
                     <tr class="input-text">
-                        <td width="3%" class="pt-2 labels">      1.</td>
+                        <td width="3%" class="pt-2 labels">      2.</td>
                         <td width="41%" class="pt-2 border-b">   Texto</td>
                         <td width="5%" class="pt-2"></td>
                         <td width="5%" class="pt-2 labels"       >Año</td>
@@ -646,7 +655,7 @@
                         <td width="18%" class="pt-2 border-b">   Texto</td>
                     </tr>
                     <tr class="input-text">
-                        <td width="3%" class="pt-2 labels">      1.</td>
+                        <td width="3%" class="pt-2 labels">      3.</td>
                         <td width="41%" class="pt-2 border-b">   Texto</td>
                         <td width="5%" class="pt-2"></td>
                         <td width="5%" class="pt-2 labels"       >Año</td>
@@ -702,7 +711,7 @@
                     <td width="90%"></td>
                 </tr>
             </table>
-            <table class="header-table pt-2" style="margin-bottom:30px;">
+            <table class="header-table pt-2" style="margin-bottom:25px;">
                 <tr  class="input-text">
                     <td width="8%" class="blue-text">
                         GRADO
@@ -756,7 +765,7 @@
                     <td>
                         <table width="100%" class="center">
                             <tr>
-                                <td>Resultado Final</td>
+                                <td class="labels">Resultado Final</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -767,7 +776,7 @@
                     <td>
                         <table width="100%" class="center">
                             <tr>
-                                <td>Aplicación</td>
+                                <td class="labels">Aplicación</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -778,7 +787,7 @@
                     <td>
                         <table width="100%" class="center">
                             <tr>
-                                <td>Tipo de Resultado</td>
+                                <td class="labels">Tipo de Resultado</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -789,7 +798,7 @@
                     <td>
                         <table width="100%" class="center">
                             <tr>
-                                <td>Calificación</td>
+                                <td class="labels">Calificación</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -800,7 +809,7 @@
                     <td width="16%">
                         <table width="100%" class="center">
                             <tr>
-                                <td>Período de Evaluación</td>
+                                <td class="labels">Período de Evaluación</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -818,7 +827,7 @@
                     <td>
                         <table width="100%" class="center">
                             <tr>
-                                <td>Resultado Final</td>
+                                <td class="labels">Resultado Final</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -829,7 +838,7 @@
                     <td>
                         <table width="100%" class="center">
                             <tr>
-                                <td>Aplicación</td>
+                                <td class="labels">Aplicación</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -840,7 +849,7 @@
                     <td>
                         <table width="100%" class="center">
                             <tr>
-                                <td style="font-size:11px;">Estado de Evaluación</td>
+                                <td style="font-size:10px;" class="labels">Estado de Evaluación</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -851,7 +860,7 @@
                     <td>
                         <table width="100%" class="center">
                             <tr>
-                                <td>Promedio</td>
+                                <td class="labels">Promedio</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -862,7 +871,7 @@
                     <td width="16%">
                         <table width="100%" class="center">
                             <tr>
-                                <td>Días Faltantes</td>
+                                <td class="labels">Días Faltantes</td>
                             </tr>
                             <tr>
                                 <td  class="border-b">Texto</td>
@@ -871,7 +880,7 @@
                     </td>
                 </tr>
             </table>
-            <table class="header-table pt-2" style="margin-bottom:30px;">
+            <table class="header-table pt-2" style="margin-bottom:25px;">
                 <tr class="input-text">
                     <td width="28%" class="cyan-text">
                         HABILIDADES BÁSICAS
@@ -891,7 +900,7 @@
                     <td width="16%">
                         <table width="100%" class="center">
                             <tr>
-                                <td>Días Faltante</td>
+                                <td class="labels">Días Faltantes</td>
                             </tr>
                             <tr>
                                 <td class="border-b">Texto</td>
@@ -931,12 +940,12 @@
              <table style="width:100%;" class="pt-3">
                 <tr class="input-text">
                     <td class="gray-table">
-                        <span style="font-weight:bolder;">MOTIVO</span> (Se muestran únicamente los dos más recientes)
+                        <span style="font-weight:bolder;">ADSCRIPCIONES</span> (Se muestran únicamente los cinco más recientes)
                     </td>
                 </tr>
             </table>
             <!--  -->
-            <div class="border" style="margin-bottom:30px;">
+            <div class="border" style="margin-bottom: 25px;">
                 <table style="width:100%;" class="padding">
                 <tr class="input-text">
                         <td width="3%" class="labels">    &nbsp;</td>
@@ -1019,13 +1028,29 @@
                 </table>
             </div>
             <!-- third-content -->
-            <table class="header-table pt-3" style="margin-bottom:30px;">
+            <table class="header-table pt-3">
                 <tr class="input-text">
                     <td width="20%" class="magenta-text">TOTAL GENERAL</td>
                     <td width="20%" class="border-b">Texto</td>
                     <td width="60%"></td>
                 </tr>
             </table>
+            <table style="width:100%; margin-bottom: 25px;" class="input-text pt-3">
+                <tr>
+                    <td width="20%" class="labels label-text-input">Ministerio Público Local</td>
+                    <td style="border: 1px solid gray; text-align:center;">CUIP</td>
+                    <td width="5%"></td>
+                    <td width="20%" class="labels label-text-input">Ministerio Público Federal</td>
+                    <td style="border: 1px solid gray; text-align:center;">CUIP</td>
+                    <td width="5%"></td>
+                    <td class="labels label-text-input">Juzgados Cívicos</td>
+                    <td style="border: 1px solid gray; text-align:center;">CUIP</td>
+                    <td width="5%"></td>
+                    <td class="labels label-text-input">Otros</td>
+                    <td style="border: 1px solid gray; text-align:center;">CUIP</td>
+                </tr>
+            </table>
+            
             <!-- Second-title -->
             <div style="position:relative;">
                 <img class="icon" style="position:absolute; top:-10px;" src="<?php echo $_SERVER["DOCUMENT_ROOT"].'\img\iconohistorialdisciplinario.svg';?>"/>
@@ -1043,17 +1068,401 @@
                     </tr>
                 </table>
             </div>
-            
+            <table style="width:100%;" class="input-text pt-3">
+                <tr>
+                    <td width="30%">
+                        <table width="100%">
+                            <tr>
+                                <td width="50%" class="blue-text">QUEJAS</td>
+                                <td width="5%"></td>
+                                <td width="7%"><div style="height:20px; display:block; background-color:#AF3022;"></div></td>
+                                <td width="5%"></td>
+                                <td width="24%" class="border-b">holi</td>
+                            </tr>
+                            <tr>
+                                <td width="50%" class="blue-text">ACTAS ADMTVS.</td>
+                                <td width="5%"></td>
+                                <td width="7%"><div style="height:20px; display:block; background-color:#23587B;"></div></td>
+                                <td width="5%"></td>
+                                <td width="24%" class="border-b">holi</td>
+                            </tr>
+                            <tr>
+                                <td width="50%" class="blue-text">AV. PREVIAS</td>
+                                <td width="5%"></td>
+                                <td width="7%"><div style="height:20px; display:block; background-color:#1B7C53;"></div></td>
+                                <td width="5%"></td>
+                                <td width="24%" class="border-b">holi</td>
+                            </tr>
+                            <tr>
+                                <td width="50%" class="blue-text">CARPETAS DE INV.</td>
+                                <td width="5%"></td>
+                                <td width="7%"><div style="height:20px; display:block; background-color:#CC3B6A;"></div></td>
+                                <td width="5%"></td>
+                                <td width="24%" class="border-b">holi</td>
+                            </tr>
+                            <tr>
+                                <td width="50%" class="blue-text">FALTAS</td>
+                                <td width="5%"></td>
+                                <td width="7%"><div style="height:20px; display:block; background-color:#D06F31;"></div></td>
+                                <td width="5%"></td>
+                                <td width="24%" class="border-b">holi</td>
+                            </tr>
+                            <tr>
+                                <td width="50%" class="blue-text">AMONESTACIONES</td>
+                                <td width="5%"></td>
+                                <td width="7%"><div style="height:20px; display:block; background-color:#1EA9AB;"></div></td>
+                                <td width="5%"></td>
+                                <td width="24%" class="border-b">holi</td>
+                            </tr>
+                            <tr>
+                                <td width="50%" class="blue-text">INCAPACIDADES</td>
+                                <td width="5%"></td>
+                                <td width="7%"><div style="height:20px; display:block; background-color:#7B2F6B;"></div></td>
+                                <td width="5%"></td>
+                                <td width="24%" class="border-b">holi</td>
+                            </tr>
+                            <tr>
+                                <td width="50%" class="blue-text">PERMISOS</td>
+                                <td width="5%"></td>
+                                <td width="7%"><div style="height:20px; display:block; background-color:#207DBA;"></div></td>
+                                <td width="5%"></td>
+                                <td width="24%" class="border-b">holi</td>
+                            </tr>
+                            <tr>
+                                <td width="50%" class="blue-text">ARRESTOS</td>
+                                <td width="5%"></td>
+                                <td width="7%"><div style="height:20px; display:block; background-color:#707B27;"></div></td>
+                                <td width="5%"></td>
+                                <td width="24%" class="border-b">holi</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="10%"></td>
+                    <td width="60%">
+                        <table class="header-table">
+                            <tr class="input-text">
+                                <td width="100%" class="blue2-text pt-1 pb-1">RESOLUCIÓN CHyJ</td>
+                            </tr>
+                            <tr>
+                                <td width="100%" class="border" style="height: 50px; padding: 2px 10px;">
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="header-table">
+                            <tr class="input-text">
+                                <td width="100%" class="labels pt-1 pb-1">Conducta</td>
+                            </tr>
+                            <tr>
+                                <td width="100%" class="border" style="height: 50px; padding: 2px 10px;"></td>
+                            </tr>
+                        </table>
+                        <table class="header-table">
+                            <tr class="input-text">
+                                <td width="8%" class="labels pt-1 ">Fecha</td>
+                                <td width="92%" class="border-b">Fecha</td>
+                            </tr>
+                        </table>
+                        <table class="header-table">
+                            <tr class="input-text">
+                                <td width="20%" class="labels pt-1">Expediente CHyJ</td>
+                                <td width="80%" class="border-b">Expediente CHyJ</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
 
-
-
-
-
-
-            
+            <!-- Table gray -->
+            <table style="width:100%;" class="pt-3">
+                <tr class="input-text">
+                    <td class="gray-table">
+                        <span style="font-weight:bolder;">INCIDENCIAS REPORTADAS POR ASUNTOS INTERNOS</span>
+                    </td>
+                </tr>
+            </table>
+            <!--  -->
+            <div class="border" style="margin-bottom: 25px;">
+                <table style="width:100%;" class="padding">
+                <tr class="input-text">
+                    <td style="height: 40px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laboriosam nostrum eos, quaerat quod alias sapiente, voluptatum totam beatae consequatur numquam ipsum harum dolores maxime veritatis iure! Doloremque, commodi libero.
+                    </td>
+                </tr>
+                </table>
+            </div>
         </div>
         <!-- Ends content -->
         <!-- //////////////////////////////////////// -->
+        <!-- //////////////////////////////////////// -->
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Breack -->
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="page-break"></div>
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Breack -->
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        
+
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Third-page -->
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --> 
+        <div class="content">
+            <!-- first-content -->
+            <table class="header-table">
+                <tr  class="input-text">
+                    <td width="10%" class="blue-text">
+                        SITUACIÓN
+                    </td>
+                    <td width="20%" class="border-b">
+                        Texto
+                    </td>
+                    <td width="90%"></td>
+                </tr>
+            </table>
+            <table class="header-table pt-2" style="margin-bottom:25px;">
+                <tr  class="input-text">
+                    <td width="8%" class="blue-text">
+                        GRADO
+                    </td>
+                    <td width="17%" class="border-b">
+                        Texto
+                    </td>
+                    <!-- space -->
+                    <td width="5%"></td>
+                    <!-- space -->
+                    <td width="5%" class="blue-text">
+                        PLACA
+                    </td>
+                    <td width="15%" class="border-b">
+                        Texto
+                    </td>
+                    <!-- space -->
+                    <td width="5%"></td>
+                    <!-- space -->
+                    <td width="7%" class="blue-text">
+                        NOMBRE
+                    </td>
+                    <td width="38%" class="border-b">
+                        Texto
+                    </td>
+                </tr>
+            </table>
+            <!-- First-title -->
+            <div style="position:relative;">
+                <img class="icon" style="position:absolute; top:-10px;" src="<?php echo $_SERVER["DOCUMENT_ROOT"].'\img\iconoascensos.svg';?>"/>
+                <table class="header-table">
+                    <tr>
+                        <td width="90%">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td style="background-color:#7AB929;" class="center">
+                                        <span class="text-white">HISTORIAL DE ASCENSO</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table class="header-table pt-3">
+                <tr class="input-text">
+                    <td width="28%" class="purple-text">TOTAL DE ASCENSOS POR PROMOCIÓN</td>
+                    <td width="15%" class="border-b">Texto</td>
+                    <td width="7%"></td>
+                    <td width="20%" class="labels">Total de Ascensos por Promoción:</td>
+                    <td width="18%" class="border-b">Texto</td>
+                </tr>
+            </table>
+            <table style="width:100%;" class="pt-3">
+                <tr class="input-text">
+                    <td class="gray-table">
+                        <span style="font-weight:bolder;">PROMOCIONES</span>
+                    </td>
+                </tr>
+            </table>
+            <!--  -->
+            <div class="border">
+                <table style="width:100%;" class="padding">
+                    <tr class="input-text">
+                        <td width="3%" class="labels">    &nbsp;</td>
+                        <td width="31%" class="labels">   Promoción</td>
+                        <td width="5%"></td>
+                        <td width="" class="labels">      Grado Inicial</td>
+                        <td width="5%"></td>
+                        <td width="" class="labels">      Grado Asciende</td>
+                        <td width="5%"></td>
+                        <td width="" class="labels">   Fecha Ascenso</td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           1.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           2.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           3.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           4.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           5.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                </table>
+            </div>
+            <table class="header-table pt-3">
+                <tr class="input-text">
+                    <td width="50%"></td>
+                    <td width="20%" class="labels">Total de Ascensos por Acuerdo:</td>
+                    <td width="18%" class="border-b">Texto</td>
+                </tr>
+            </table>       
+            <table style="width:100%;" class="pt-3">
+                <tr class="input-text">
+                    <td class="gray-table">
+                        <span style="font-weight:bolder;">ACUERDOS</span>
+                    </td>
+                </tr>
+            </table>
+            <!--  -->
+            <div class="border" style="margin-bottom: 25px;">
+                <table style="width:100%;" class="padding">
+                    <tr class="input-text">
+                        <td width="3%" class="labels">    &nbsp;</td>
+                        <td width="31%" class="labels">   Acuerdo</td>
+                        <td width="5%"></td>
+                        <td width="" class="labels">      Grado Inicial</td>
+                        <td width="5%"></td>
+                        <td width="" class="labels">      Grado Asciende</td>
+                        <td width="5%"></td>
+                        <td width="" class="labels">   Fecha Ascenso</td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           1.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           2.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           3.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           4.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                    <tr class="input-text">
+                        <td width="3%" class="labels">           5.</td>
+                        <td width="31%" class="border-b pt-2">   </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                        <td width="5%"></td>
+                        <td width="" class="border-b pt-2">      </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Second-title -->
+            <div style="position:relative;">
+                <img class="icon" style="position:absolute; top:-10px;" src="<?php echo $_SERVER["DOCUMENT_ROOT"].'\img\iconoreconoc_facial.svg';?>"/>
+                <table class="header-table">
+                    <tr>
+                        <td width="90%">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td style="background-color:#EC663B;" class="center">
+                                        <span class="text-white">RECONOCIMIENTO FACIAL</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table class="header-table" style="padding-top: 30px;">
+                <tr>
+                    <td style="border: 2px solid #EC663B; height: 300px;"></td>
+                    <td width="15%"></td>
+                    <td style="border: 2px solid #EC663B; height: 300px;"></td>
+                    <td width="15%"></td>
+                    <td style="border: 2px solid #EC663B; height: 300px;"></td>
+                </tr>
+            </table>
+            <table class="header-table center" style="padding-top: 50px;">
+                <tr>
+                    <td width="100%" class="input-text">
+                    Confome a lo dispuesto en los artículos 3, fracciones IX, XI y XXXIV, 9, 10, 11 y 19 de la <span style="font-weight:bolder">Ley de Protección de Datos Personales en Posesión de 
+                    Sujetos Obligados de la Ciudad de México</span>, así como 6 fracciones XII y XXII, 21, 24 fracción XXIII, y 186 de la <span style="font-weight:bolder">Ley de Transparencia, Acceso a la 
+                    Información Pública y Rendición de Cuentas de la Ciudad de México</span>, por tratarse de <span style="font-weight:bolder">Datos Personales, queda bajo su estricta responsabilidad el uso 
+                    de la información que se proporciona</span>.
+                    </td>
+                </tr>
+            </table>
+        </div>
+
 
     </body>
 </html>
