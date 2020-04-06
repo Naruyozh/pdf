@@ -19,4 +19,12 @@ Route::get('/pdf', function () {
     return view('mypdf');
 });
 
+Route::get('/pdf2', function () {
+    return view('pdf');
+});
+
 Route::name('print')->get('/imprimir', 'CustomerController@imprimir');
+
+Route::name('print')->get('/imprimirPDF', 'CustomerController@imprimir2');
+
+Route::name('print')->get('/imprimirCredencial', 'CustomerController@imprimircredencial');

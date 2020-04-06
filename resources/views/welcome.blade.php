@@ -88,6 +88,14 @@
                 <div class="links">
                     <a href="/imprimir" target="_blank">Descargar PDF</a>
                 </div>
+
+                <div class="links">
+                    <a href="/imprimirPDF" target="_blank">Descargar PDF</a>
+                </div>
+
+                <div class="links">
+                    <a href="/imprimirCredencial" target="_blank">Generar Credencial</a>
+                </div>
             </div>
         </div>
     </body>

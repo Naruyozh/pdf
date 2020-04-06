@@ -11,8 +11,19 @@ class CustomerController extends Controller
 
     public function imprimir(){
         $pdf = \PDF::loadView('mypdf');
-        return $pdf->stream('mypdf.pdf');
+        return $pdf->stream('hoja-de-servicio-carrera-policial.pdf');
     }
+
+    public function imprimir2(){
+        $pdf = \PDF::loadView('pdf');
+        return $pdf->stream('hoja-de-servicio-administracion-de-personal.pdf');
+    }
+
+    public function imprimircredencial(){
+        $pdf = \PDF::loadView('pdfcredencial');
+        return $pdf->stream('credencial.pdf');
+    }
+      
 
 
     /**

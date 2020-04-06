@@ -224,7 +224,7 @@
             <table class="header-table">
                 <tr>
                     <td class="center title">
-                        HOJA DE SERVICIO 
+                        HOJA DE SERVICIO CARRERA POLICIAL
                     </td>
                     
                 </tr>
